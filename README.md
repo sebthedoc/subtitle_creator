@@ -11,18 +11,8 @@ This project provides various tools for creating subtitles from video or audio f
 
 ## Scripts
 
-### 1. main.py
 
-The main script for local transcription using Whisper.
-
-Usage:
-```
-python main.py [file]
-python main.py -zh [file]  # For Chinese
-python main.py -en [file]  # For English
-```
-
-### 2. sub_groq.py
+### 1. sub_groq.py
 
 Uses the Groq API for cloud-based transcription.
 
@@ -35,7 +25,7 @@ python sub_groq.py [file] -no  # Skip audio extraction
 Requirements:
 - Groq API key (set in .env file)
 
-### 3. sub_local_whisper_large.py
+### 2. sub_local_whisper_large.py
 
 Uses the large Whisper model for local transcription.
 
@@ -44,7 +34,7 @@ Usage:
 python sub_local_whisper_large.py [file]
 ```
 
-### 4. sub_local_whisper.py
+### 3. sub_local_whisper.py
 
 Uses the base Whisper model for faster local transcription.
 
