@@ -2,6 +2,9 @@
 
 This project provides various tools for creating subtitles from video or audio files using different transcription methods.
 
+It's by no means ready, production quality. I have used it mainly for myself + friends to create SRTs for videos, transcriptions for podcasts etc.
+You need to be to able to code Python to use as I did not even create command line interface for it. Sorry.
+
 ## Features
 
 - Transcribe audio/video files to SRT subtitle format
