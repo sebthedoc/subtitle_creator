@@ -1,0 +1,3 @@
+groq
+openai-whisper
+python-dotenv
